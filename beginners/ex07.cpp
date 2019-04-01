@@ -3,9 +3,9 @@ using namespace std;
 
 int main() {
   // 変数a,b,cにtrueまたはfalseを代入してAtCoderと出力されるようにする。
-  bool a = // true または false
-  bool b = // true または false
-  bool c = // true または false
+  bool a = 1;// true または false
+  bool b = 0; // true または false
+  bool c = 1;// true または false
 
   // ここから先は変更しないこと
 
