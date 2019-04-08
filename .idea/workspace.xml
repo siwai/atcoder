@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="33a165dc-665c-400a-860c-d2a1b9cbf5a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beginners/ex13.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/beginners/ex13.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +25,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="14" />
+          <entry key="cpp" value="15" />
           <entry key="gitignore" value="2" />
           <entry key="hello" value="1" />
           <entry key="newYear" value="1" />
@@ -33,7 +34,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C++" value="14" />
+          <entry key="C++" value="15" />
           <entry key="Git file" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
@@ -41,14 +42,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="829" />
+          <entry key="cpp" value="842" />
           <entry key="gitignore" value="1" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C++" value="829" />
+          <entry key="C++" value="842" />
           <entry key="Git file" value="1" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
@@ -60,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/beginners/ex13.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="301">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -150,7 +151,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554733559240" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554735375199" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -181,7 +182,7 @@
       <workItem from="1552676337560" duration="13000" />
       <workItem from="1554102865988" duration="4527000" />
       <workItem from="1554522994645" duration="725000" />
-      <workItem from="1554628409638" duration="4171000" />
+      <workItem from="1554628409638" duration="4444000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore">
       <created>1550081837389</created>
@@ -194,7 +195,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13530000" />
+    <option name="totallyTimeSpent" value="13803000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,8 +362,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/beginners/ex13.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="301">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
