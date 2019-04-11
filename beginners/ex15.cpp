@@ -5,14 +5,14 @@ using namespace std;
 // 引数 scores: scores.at(i)にi番目のテストの点数が入っている
 // 返り値: 1人のテストの合計点
 int sum(vector<int> scores) {
-  // ここにプログラムを追記
-  int sum = 0;
-  for (int i =0; i < sizeof(scores); i++){
-    cout << scores.at(i);
-    sum += scores.at(i);
-  }
-//  cout << sum << endl;
-  return sum;
+    // ここにプログラムを追記
+    int s = 0;
+    for (int i =0; i < scores.size(); i++){
+//        cout << scores.at(i);
+        s += scores.at(i);
+    }
+//  cout << s << endl;
+    return s;
 }
 
 // 3人の合計点からプレゼントの予算を計算して出力する関数
@@ -21,16 +21,16 @@ int sum(vector<int> scores) {
 // 引数 sum_c: C君のテストの合計点
 // 返り値: なし
 void output(int sum_a, int sum_b, int sum_c) {
-  // ここにプログラムを追記
-  int sum = sum_a * sum_b * sum_c;
+    // ここにプログラムを追記
+    int sum = sum_a * sum_b * sum_c;
 
 
-  if(sum > 0){
-    cout << sum << endl;
-  }
-  else{
-    cout << 0 << endl;
-  }
+    if(sum > 0){
+        cout << sum << endl;
+    }
+    else{
+        cout << 0 << endl;
+    }
 }
 
 // -------------------
@@ -41,24 +41,24 @@ void output(int sum_a, int sum_b, int sum_c) {
 // 引数 N: 入力を受け取る個数
 // 返り値: 受け取ったN個の入力の配列
 vector<int> input(int N) {
-  vector<int> vec(N);
-  for (int i = 0; i < N; i++) {
-    cin >> vec.at(i);
-  }
-  return vec;
+    vector<int> vec(N);
+    for (int i = 0; i < N; i++) {
+        cin >> vec.at(i);
+    }
+    return vec;
 }
 
 int main() {
-  // 科目の数Nを受け取る
-  int N;
-  cin >> N;
+    // 科目の数Nを受け取る
+    int N;
+    cin >> N;
 
-  // それぞれのテストの点数を受け取る
-  vector<int> A, B, C;
-  A = input(N);
-  B = input(N);
-  C = input(N);
+    // それぞれのテストの点数を受け取る
+    vector<int> A, B, C;
+    A = input(N);
+    B = input(N);
+    C = input(N);
 
-  // プレゼントの予算を出力
-  output(sum(A), sum(B), sum(C));
+    // プレゼントの予算を出力
+    output(sum(A), sum(B), sum(C));
 }
