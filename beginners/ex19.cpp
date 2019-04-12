@@ -2,12 +2,26 @@
 using namespace std;
 
 // 参照渡しを用いて、呼び出し側の変数の値を変更する
-void saiten(/* 呼び出し側に対応するように引数を書く */) {
+void saiten(vector<vector<int> > &A, int &correct_count, int &wrong_count ){
     // 呼び出し側のAの各マスを正しい値に修正する
     // Aのうち、正しい値の書かれたマスの個数を correct_count に入れる
     // Aのうち、誤った値の書かれたマスの個数を wrong_count に入れる
 
     // ここにプログラムを追記
+
+    for (int i = 0; i < 9 ; i++) {
+        for (int j = 0; j < 9 ; j++) {
+            if(A.at(i).at(j)  == (i+1) * (j+1) ){
+                correct_count++;
+            }
+            if(A.at(i).at(j)  != (i+1) * (j+1) ){
+                wrong_count++;
+                A.at(i).at(j) = (i+1) * (j+1);
+            }
+        }
+    }
+
+
 }
 
 
@@ -16,7 +30,7 @@ void saiten(/* 呼び出し側に対応するように引数を書く */) {
 // -------------------
 int main() {
     // A君の回答を受け取る
-    vector<vector<int>> A(9, vector<int>(9));
+    vector<vector<int> > A(9, vector<int>(9));
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 9; j++) {
             cin >> A.at(i).at(j);

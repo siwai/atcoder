@@ -1,7 +1,7 @@
-set(CMAKE_CXX_COMPILER "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++")
+set(CMAKE_CXX_COMPILER "/usr/local/bin/g++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
-set(CMAKE_CXX_COMPILER_VERSION "10.0.0.10001145")
+set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_VERSION "5.5.0")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "98")
@@ -19,11 +19,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 set(CMAKE_AR "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar")
-set(CMAKE_CXX_COMPILER_AR "")
+set(CMAKE_CXX_COMPILER_AR "/usr/local/bin/gcc-ar-5")
 set(CMAKE_RANLIB "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "")
+set(CMAKE_CXX_COMPILER_RANLIB "/usr/local/bin/gcc-ranlib-5")
 set(CMAKE_LINKER "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld")
-set(CMAKE_COMPILER_IS_GNUCXX )
+set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
 set(CMAKE_CXX_COMPILER_WORKS TRUE)
 set(CMAKE_CXX_ABI_COMPILED TRUE)
@@ -68,9 +68,9 @@ if(CMAKE_CXX_CL_SHOWINCLUDES_PREFIX)
 endif()
 
 
+set(CMAKE_CXX_SYSROOT_FLAG "-isysroot")
+set(CMAKE_CXX_OSX_DEPLOYMENT_TARGET_FLAG "-mmacosx-version-min=")
 
-
-
-set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "c++")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/lib;/usr/local/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;gcc_ext.10.5;gcc")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/local/Cellar/gcc@5/5.5.0_2/lib/gcc/5/gcc/x86_64-apple-darwin17.3.0/5.5.0;/usr/local/Cellar/gcc@5/5.5.0_2/lib/gcc/5;/usr/lib;/usr/local/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "/Library/Frameworks;/System/Library/Frameworks")

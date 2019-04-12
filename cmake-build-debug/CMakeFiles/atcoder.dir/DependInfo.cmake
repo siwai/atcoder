@@ -21,7 +21,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/siwai/Work/workspace/products/atcoder/hello.cpp" "/Users/siwai/Work/workspace/products/atcoder/cmake-build-debug/CMakeFiles/atcoder.dir/hello.cpp.o"
   "/Users/siwai/Work/workspace/products/atcoder/practice/practice.cpp" "/Users/siwai/Work/workspace/products/atcoder/cmake-build-debug/CMakeFiles/atcoder.dir/practice/practice.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
