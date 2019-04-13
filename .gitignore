@@ -3,5 +3,5 @@
 *.xml
 /.idea/*.xml
 *.txt
-cmake-bulid-debug/*
+cmake-build-debug/*
 .idea/*
