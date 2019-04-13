@@ -2,3 +2,5 @@
 *.o
 *.xml
 /.idea/*.xml
+*.txt
+cmake-bulid-debug/*
