@@ -1,5 +1,4 @@
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
 
 string divide[4] = {"dream", "dreamer", "erase", "eraser"};
