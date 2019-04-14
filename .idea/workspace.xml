@@ -12,12 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33a165dc-665c-400a-860c-d2a1b9cbf5a1" name="Default Changelist" comment=".gitignore">
-      <change afterPath="$PROJECT_DIR$/ABC/124/a.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/124/b.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/124/c.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/124/d.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC/124/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ABC/124/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ABC/124/test.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,26 +28,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ABC/124/c.cpp">
+        <entry file="file://$PROJECT_DIR$/ABC/049/c.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ABC/124/d.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+            <state relative-caret-position="271">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ABC/124/test.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/ABC/049/test.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -104,14 +97,17 @@
         <option value="$PROJECT_DIR$/ABC/124/b.cpp" />
         <option value="$PROJECT_DIR$/ABC/124/c.cpp" />
         <option value="$PROJECT_DIR$/ABC/124/d.cpp" />
+        <option value="$PROJECT_DIR$/ABC/124/test.cpp" />
+        <option value="$PROJECT_DIR$/ABC/049/c.cpp" />
+        <option value="$PROJECT_DIR$/ABC/049/test.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1280" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="741" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="width" value="698" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -130,6 +126,18 @@
               <item name="atcoder" type="b2602c69:ProjectViewProjectNode" />
               <item name="atcoder" type="462c0819:PsiDirectoryNode" />
               <item name="ABC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atcoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="ABC" type="462c0819:PsiDirectoryNode" />
+              <item name="049" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atcoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atcoder" type="462c0819:PsiDirectoryNode" />
+              <item name="ABC" type="462c0819:PsiDirectoryNode" />
+              <item name="083" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="atcoder" type="b2602c69:ProjectViewProjectNode" />
@@ -223,7 +231,7 @@
       <workItem from="1554628409638" duration="7438000" />
       <workItem from="1554820241167" duration="1211000" />
       <workItem from="1554822424136" duration="62000" />
-      <workItem from="1554822487102" duration="23606000" />
+      <workItem from="1554822487102" duration="27064000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore">
       <created>1550081837389</created>
@@ -288,11 +296,32 @@
       <option name="project" value="LOCAL" />
       <updated>1555145809918</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add ABC124 A">
+      <created>1555173184501</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555173184501</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add b">
+      <created>1555173197206</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555173197206</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add C">
+      <created>1555173210089</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555173210089</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41776000" />
+    <option name="totallyTimeSpent" value="45234000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -304,10 +333,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="741" y="23" width="698" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15761448" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2179878" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -325,7 +354,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32866243" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.27875647" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.34267515" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -349,7 +378,10 @@
     <MESSAGE value="Add ABC placingMarbles" />
     <MESSAGE value="Edit .gitignore" />
     <MESSAGE value=".gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
+    <MESSAGE value="Add ABC124 A" />
+    <MESSAGE value="Add b" />
+    <MESSAGE value="Add C" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add C" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/beginners/hello.cpp">
@@ -537,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ABC/083/B.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="16" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ABC/087/B.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -586,6 +611,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ABC/124/test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABC/124/d.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ABC/124/c.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -593,15 +628,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ABC/124/d.cpp">
+    <entry file="file://$PROJECT_DIR$/ABC/083/B.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-end-line="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ABC/124/test.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/ABC/049/c.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ABC/049/test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
