@@ -51,7 +51,5 @@ int main() {
         s =":(";
 
     }
-//
-//
     cout << s << endl;
 }
