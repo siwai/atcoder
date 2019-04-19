@@ -19,6 +19,7 @@ int main() {
     }
 
     int res =0;
+
     for (int i = 1; i < 101; ++i) {
         // cout << num.at(i);
         if(num.at(i)){
