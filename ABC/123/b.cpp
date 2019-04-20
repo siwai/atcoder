@@ -37,5 +37,6 @@ int main() {
     int ans;
     ans = count * 10 + min;
 
+
     cout << ans << endl;
 }
