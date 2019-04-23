@@ -40,4 +40,6 @@ int main() {
     ans = count * 10 + min;
     cout << ans << endl;
 
+
 }
+
