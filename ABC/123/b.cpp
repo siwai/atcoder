@@ -35,6 +35,8 @@ int main() {
         count += m;
         // dish(i) = m;
 
+
+
     }
     int ans;
     ans = count * 10 + min;
