@@ -31,12 +31,8 @@ int main() {
             m = dish.at(i) / 10 ;
             m +=1;
         }
-
         count += m;
         // dish(i) = m;
-
-
-
     }
     int ans;
     ans = count * 10 + min;
