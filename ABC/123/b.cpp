@@ -32,6 +32,7 @@ int main() {
             m +=1;
         }
         count += m;
+
         // dish(i) = m;
     }
     int ans;
