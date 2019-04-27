@@ -30,6 +30,8 @@ int main() {
             }
             m = dish.at(i) / 10 ;
             m +=1;
+
+
         }
         count += m;
 
