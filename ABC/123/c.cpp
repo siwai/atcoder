@@ -47,4 +47,6 @@ int main() {
         }
     }
     cout << k << endl;
+
+
 }
