@@ -4,4 +4,8 @@
 /.idea/*.xml
 *.txt
 /cmake-build-debug/*
+./cmake-build-debug/*
+cmake-build-debug/*
 .idea
+.txt
+
