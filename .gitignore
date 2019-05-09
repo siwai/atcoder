@@ -1,11 +1,7 @@
 *.a
+*.exe
 *.o
 *.xml
-/.idea/*.xml
 *.txt
-/cmake-build-debug/*
-./cmake-build-debug/*
-cmake-build-debug/*
+cmake-build-debug/
 .idea
-.txt
-
