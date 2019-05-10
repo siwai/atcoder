@@ -40,20 +40,25 @@ int main() {
         int to = oc[i];
         if (te > max_e) {
             e2 = max_e;
-            max_e = i;
+            // max_e = i;
+            max_e = e[i];
         } else if (te > e2) {
-            e2 = i;
+//            e2 = i;
+            e2 = e[i];
         }
 
         if (to > max_o) {
             o2 = max_o;
-            max_o = i;
+            max_o = o[i];
+//            max_o = i;
         } else if (to > o2) {
-            o2 = i;
+            //o2 = i;
+            o2 = o[i];
         }
 
     }
 
+    cout << max_e << "e:o" << max_o << endl;
     // 最頻値が奇数項、偶数項で同一の場合
     if (max_e == max_o) {
         int maxEven = max_e;
@@ -88,6 +93,7 @@ int main() {
             }
         }
         int ans2 = rewriteCountEven + rewriteCountOdd;
+        cout << ans1 << ":" << ans2 << endl;
         ans = min(ans1, ans2);
     // 同一でない場合
     } else {
