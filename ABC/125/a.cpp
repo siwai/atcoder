@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-    int A, B, T;
+    int A, B, Ta;
     cin >> A >> B >> T;
     int currentTime = A;
     int ans = 0;
