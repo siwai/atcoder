@@ -1,25 +1,29 @@
 #include <bits/stdc++.h>
 
 using namespace std;
+#define ll long long
 
+vector<long long> divisor;
 
-int cal(long long N) {
-    long long ans = 0;
-    long long max = -1;
+int calculateDivisor(long long N) {
+    for (long long i = 1; i   <= N; ++i) {
+        if (N % i == 0) {
+            divisor.push_back(i);
+        }
+    }
+    return 0;
+}
 
-    if (N == 1) { return 0; }
-
-    for (int i = 2; i < N; ++i) {
-        long long quotient = N / i;
-        long long remainder = N % i;
+long long solve(long long N) {
+    long long M = divisor.size();
+    long long ans;
+    for (long long i = 1; i < M; ++i) {
+        long long num = divisor[i] - 1;
+        long long quotient = num / i;
+        long long remainder = num % i;
         if (quotient == remainder) {
-            // debug
-            cout << i << ":" << quotient << ":" << remainder << endl;
+            cout  << i <<endl;
             ans += i;
-            if (i > max ){
-                max = remainder;
-            }
-
         }
     }
     return ans;
@@ -31,6 +35,9 @@ int main() {
     long long N;
     cin >> N;
     long long ans;
-    ans = cal(N);
+    calculateDivisor(N);
+    ans = solve(N);
     cout << ans << endl;
+
+    return 0;
 }
