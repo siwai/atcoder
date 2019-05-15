@@ -16,5 +16,4 @@ int main() {
     }
     int ans = a[N - 1];
     cout << ans << endl;
-
 }
