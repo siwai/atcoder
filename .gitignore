@@ -3,6 +3,8 @@
 *.o
 *.xml
 *.txt
+*.iml
+*.md
 cmake-build-debug/
 .idea
 practice/
