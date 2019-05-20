@@ -53,27 +53,20 @@ int main() {
 
     color[0] = 0;
     int currentColor = 0;
-<<<<<<< HEAD
     int cc;
     for (int i = 0; i < N; ++i) {
 //    for (int i = 1; i < N; ++i) {
-=======
-    for (int i = 1; i < N; ++i) {
->>>>>>> 5718c9bd2bdeb2e4e57823926ce7819a5a29fc06
         // 頂点i とj(0<=j<i)を見る
         for (int j = 0; j < i; ++j) {
             if (f[j][i] == 1) {
-                int temp = color[j];
-<<<<<<< HEAD
-                cc = 0;
-=======
 
->>>>>>> 5718c9bd2bdeb2e4e57823926ce7819a5a29fc06
-                if (temp == 0) {
-                    currentColor = 1;
-                } else {
-                    currentColor = 0;
-                }
+//                int temp = color[j];
+                cc = 0;
+//                if (temp == 0) {
+//                    currentColor = 1;
+//                } else {
+//                    currentColor = 0;
+//                }
 //                }currentColor == 0){
 //                    currentColor = 1;
 //                }else   {
@@ -81,39 +74,23 @@ int main() {
 //                }
             }
             else if (f[j][i] == 2){
-<<<<<<< HEAD
                 cc = 1;
-=======
->>>>>>> 5718c9bd2bdeb2e4e57823926ce7819a5a29fc06
                 int temp = color[j];
                 if (temp == 0) {
                     currentColor = 0;
                 } else {
                     currentColor = 1;
                 }
-<<<<<<< HEAD
                 // break;
             }
 
         }
         color[i] = cc;
 //        color[i] = currentColor;
-=======
-                break;
-            }
-
-        }
-        color[i] = currentColor;
->>>>>>> 5718c9bd2bdeb2e4e57823926ce7819a5a29fc06
     }
 
     for (int i = 0; i < N; ++i) {
         cout << color[i] << endl;
     }
-
-<<<<<<< HEAD
-=======
-    // cout << ans << endl;
->>>>>>> 5718c9bd2bdeb2e4e57823926ce7819a5a29fc06
 
 }
