@@ -12,6 +12,9 @@
 #define ALL(v) v.begin(), v.end()
 #define INF 1e9
 
+#define repd(i, a, b) for (int i=(a);i<(b);i++)
+#define rep(i, n) repd(i,0,n)
+
 using namespace std;
 
 /**
