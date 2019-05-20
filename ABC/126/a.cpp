@@ -13,7 +13,7 @@ int main() {
     string S;
     cin >> S;
 
-
+    cout<<  gcd(15, 20)<<endl;
     char s = S[K - 1];
     if (s == 'A') {
         S[K - 1] = 'a';
