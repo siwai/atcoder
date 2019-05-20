@@ -50,4 +50,5 @@ T output(T answer) {
 int main() {
 
 
+
 }
