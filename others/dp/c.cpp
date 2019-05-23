@@ -76,16 +76,23 @@ T output(T answer) {
 
 /** ----from here ---------------------------------------------------------- */
 
+
+// 入力
+long long a[100010][3]; // a[i], b[i], c[i] をそれぞれまとめて a[i][0], a[i][1], a[i][2] にしてしまう
+
+// DP テーブル
+long long dp[100010][3];
+
 int main() {
 
     int N;
     cin >> N;
 
     // 入力
-    long long a[100010][3]; // a[i], b[i], c[i] をそれぞれまとめて a[i][0], a[i][1], a[i][2] にしてしまう
+//    long long a[100010][3]; // a[i], b[i], c[i] をそれぞれまとめて a[i][0], a[i][1], a[i][2] にしてしまう
 
     // DP テーブル
-    long long dp[100010][3];
+//    long long dp[100010][3];
     for (int i = 0; i < N; ++i) for (int j = 0; j < 3; ++j) cin >> a[i][j];
 
 
