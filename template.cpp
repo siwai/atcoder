@@ -34,6 +34,36 @@ unsigned euclidean_gcd(unsigned a, unsigned b) {
 }
 
 /**
+ * change minimum
+ * @tparam T
+ * @param a
+ * @param b
+ * @return bool
+ */
+template<class T> inline bool changeMinimum(T& a, T b) {
+    if (a > b) {
+        a = b;
+        return true;
+    }
+    return false;
+}
+
+/**
+ * change maximum
+ * @tparam T
+ * @param a
+ * @param b
+ * @return bool
+ */
+template<class T> inline bool changeMaximum(T& a, T b) {
+    if (a < b) {
+        a = b;
+        return true;
+    }
+    return false;
+}
+
+/**
  * output answer
  * @tparam T
  * @param answer
