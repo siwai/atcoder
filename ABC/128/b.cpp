@@ -78,14 +78,24 @@ T output(T answer) {
 
 int main() {
 
-    map<int, std::pair<string, int> > mp;
+
+    string in;
+    vector< pair <pair <string, int>, int> > p;
 
     int N;
     cin >> N;
-    mp.insert(make_pair("aa",10));
-    cout<< m;
 
 
+    for (int i = 0; i < N; ++i) {
+        int t;
+        cin >> in >> t;
+        string temp = in;
+        p.push_back(make_pair(make_pair(in, -t), i));
+    }
 
-//    std::map<string, int> mp
+     sort(p.begin(), p.end());
+    for (int i = 0; i < N; i++) {
+        cout << p[i].second + 1 << endl;
+    }
+
 }

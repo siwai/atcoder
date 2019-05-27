@@ -1,6 +1,6 @@
 <?php
 # 整数の入
-fscanf(STDIN, "%d", $a);
+        fscanf(STDIN, "%d", $a);
 
 
 $array = [];
@@ -11,10 +11,10 @@ for($i=0;$i <$a ; $i++){
 fscanf(STDIN,"%s %d", $b, $c);
 
 $temp = [
-        'city' => $b,
-        'point' => $c,
-        'id' => $i+1
-                ];
+'city' => $b,
+'point' => $c,
+'id' => $i+1
+];
 array_push($array, $temp);
 //echo    (print_r($temp));
 
@@ -24,19 +24,19 @@ array_push($array, $temp);
 //echo    (print_r($array));
 
 foreach ($array as $key => $value) {
-    $city[$key] = $value["city"];
-    $no[$key] = $value["point"];
+$city[$key] = $value["city"];
+$no[$key] = $value["point"];
 }
 //
 //array_multisort($array, SORT_ASC, $city);
 array_multisort($city, SORT_ASC,
-$no, SORT_DESC,
-$array);
+        $no, SORT_DESC,
+        $array);
 
 // echo    (print_r($array))
 
 foreach ($array as $key => $value) {
-    echo ($value['id']."\n");
+echo ($value['id']."\n");
 }
 
 

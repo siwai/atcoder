@@ -74,44 +74,33 @@ T output(T answer) {
     return 0;
 }
 
-int binary(int bina) {
-    int ans = 0;
-    for (int i = 0; bina > 0; i++) {
-        ans = ans + (bina % 2) * pow(10, i);
-        bina = bina / 2;
-    }
-    return ans;
-}
-
 /** ----from here ---------------------------------------------------------- */
 
+int n, k, t[10][10];
 
-bool dfs(int n, int value){
-
-}
-
-
-int main() {
-
-    int N, M;
-    cin >> N >> M;
-    vector<int> k(10);
-    vector <vector<int> > vvv(10, vector<int>(10));
-
-    for (int i = 0; i < M; ++i) {
-        cin >> k[i];
-        for (int j = 0; j < k[i]; ++j) {
-            cin >> vvv[i][j];
+bool dfs(int x, int y) {
+    if (x == n) {
+        return y == 0;
+    }
+    for (int i = 0; i < k; ++i) {
+        if (dfs(x + 1, y ^ t[x][i])) {
+            return true;
         }
     }
-
-    vector<int> p(10, 0);
-    for (int i = 0; i < M; ++i) {
-        cin >> p[i];
-    }
-
-
-
-    cout << ans << endl;
-
 }
+
+int main() {
+    cin >> n >> k;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < k; ++j) {
+            cin >> t[i][j];
+        }
+    }
+    if (dfs(0, 0)) {
+        cout << "Found" << endl;
+    } else {
+        cout << "Nothing" << endl;
+    }
+    return 0;
+}
+
