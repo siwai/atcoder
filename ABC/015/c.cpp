@@ -79,11 +79,16 @@ T output(T answer) {
 int n, k, t[10][10];
 
 bool dfs(int x, int y) {
+
     if (x == n) {
-        return y == 0;
+        cout<< "---" << endl;
+        return y == 0;// XORが0ならばFound
     }
-    for (int i = 0; i < k; ++i) {
-        if (dfs(x + 1, y ^ t[x][i])) {
+    cout << "x" << x << ":" << "y" << y << endl;
+    for (int i = 0; i < k; ++i) { // k個の質問
+        // bool aa = dfs(x + 1, y ^ t[x][i]);
+        // cout<< aa << endl;
+        if (dfs(x + 1, y ^ t[x][i])) { // XOR
             return true;
         }
     }
