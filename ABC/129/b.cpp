@@ -78,10 +78,32 @@ T output(T answer) {
 
 int main() {
 
-    int A, B, C;
-    cin >> A >> B >> C;
-    int m = max(max(A, B), C);
-    int ans = A + B + C - m;
-    cout << ans << endl;
+    /**
+     * 累積和
+     */
+
+    int N;
+    cin >> N;
+    vector<int> w(N);
+    for (int i = 0; i < N; ++i) {
+        cin >> w[i];
+    }
+
+    vector<int> s(N + 1);
+    s[0] = 0;
+    for (int i = 0; i < N; ++i) {
+        s[i + 1] = s[i] + w[i];
+    }
+    int diff = s[N];
+    for (int i = 0; i < N; ++i) {
+        int left = s[i];
+        int right = s[N] - left;
+        int t = abs(right - left);
+        if (t < diff) {
+            diff = t;
+        }
+    }
+
+    cout << diff << endl;
 
 }
