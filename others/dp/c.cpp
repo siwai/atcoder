@@ -88,27 +88,35 @@ int main() {
     int N;
     cin >> N;
 
-    // 入力
-//    long long a[100010][3]; // a[i], b[i], c[i] をそれぞれまとめて a[i][0], a[i][1], a[i][2] にしてしまう
-
-    // DP テーブル
-//    long long dp[100010][3];
-    for (int i = 0; i < N; ++i) for (int j = 0; j < 3; ++j) cin >> a[i][j];
-
-
     for (int i = 0; i < N; ++i) {
         for (int j = 0; j < 3; ++j) {
-            for (int k = 0; k < 3; ++k) {
-                if (j == k) { continue; }
-                changeMaximum(dp[i + 1][k], dp[i][j] + a[i][k]);
-            }
-
+            cin >> a[i][j];
         }
     }
+
+    /**
+     * 2段階の9通り検討する
+     */
+
+    dp[1][0] = a[0][0];
+    dp[1][1] = a[0][1];
+    dp[1][2] = a[0][2];
+
+
+    for (int i = 1; i < N; ++i) {
+        for (int j = 0; j < 3; ++j) {
+            for (int k = 0; k < 3; ++k) {
+                if (j == k) continue;
+                changeMaximum(dp[i + 1][k], dp[i][j] + a[i][k]);
+            }
+        }
+    }
+
     // 答え
     long long res = 0;
-    for (int j = 0; j < 3; ++j) changeMaximum(res, dp[N][j]);
+    for (int j = 0; j < 3; ++j) {
+        changeMaximum(res, dp[N][j]);
+    }
     cout << res << endl;
-
 
 }
