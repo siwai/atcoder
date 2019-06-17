@@ -78,34 +78,21 @@ T output(T answer) {
 
 int main() {
 
-    int N;
-    cin >> N;
-    vector<int> w(N);
-    long long h[100010];
+    int N, M;
+    cin >> N >> M;
+    vector<int> a(N);
+
+    /**
+     * 壊れた床の前後で何通りあるか算出-> 結合すればよい
+     * 無事な床がNこあれば． N-1C1 + N-2C2 + ... + N/2+1C
+     */
+
+    /**
+     *  000 :2
+     *  0000 : 3
+     *  00000 : 1 + 4C1 + 3C2
+     */
 
 
-    // 無限大の値
-    //const long long INF = 1LL << 60;
-
-    for (int i = 0; i < N; ++i) cin >> h[i];
-
-    // DP テーブル
-    long long dp[100010];
-
-    // DP テーブル全体を初期化 (最小化問題なので INF に初期化)
-    for (int i = 0; i < 100010; ++i) dp[i] = INF;
-
-    // 初期条件
-    dp[0] = 0;
-
-    for (int i = 1; i < N; ++i) {
-        changeMinimum(dp[i], dp[i - 1] + abs(h[i] - h[i - 1]));
-        if (i > 1) {
-            changeMinimum(dp[i], dp[i - 1] + abs(h[i] - h[i - 1]));
-            changeMinimum(dp[i], dp[i - 2] + abs(h[i] - h[i - 2]));
-        }
-    }
-
-    cout << dp[N - 1] << endl;
 
 }
