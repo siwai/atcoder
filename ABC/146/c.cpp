@@ -76,17 +76,17 @@ T output(T answer) {
 
 /** ----from here ---------------------------------------------------------- */
 
-int getDigit(int n) {
+ll getDigit(ll n) {
     int digit = 0;
     while(n > 0) { n /= 10; digit++; }
     return digit;
 }
 
 int main() {
-    int A, B, X;
+    ll A, B, X;
     cin >> A >> B >> X;
-    int number = 0;
-
+    ll p;
+    ll L, R, m;
     L = 0;
     R = 1000000001;
     while (R - L > 1) {
