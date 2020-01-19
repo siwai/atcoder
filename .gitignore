@@ -6,6 +6,7 @@
 *.iml
 *.md
 cmake-build-debug/
+LeetCode/
 .idea
 practice/
 others/yahoo/
